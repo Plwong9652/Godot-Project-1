@@ -324,6 +324,29 @@ Cross、Luck、Dragon、Help、Note、FlyUp、FlyDown、Ice、Holy、KeyMagic、
 
 ---
 
+---
+
+## 素材提取：已完成第一批
+
+由 SWF 提取並轉為 Godot 可用格式。分工：Claude 負責 reuse 層的提取工作（格式轉換、資料抽取），Paul 負責實作（寫 code、砌 scene、實作 mechanics）。
+
+### 產出
+
+- `tileset_32.png`：133 張 32x32 合成單一 atlas，12×12 排列，384×384。tile 之間不加 margin 與 spacing——Godot TileSet 的 Use Texture Padding 會自行處理 texture bleeding。決定用單一 atlas 而非分類多張，因為在 Godot 內可再自行拆分。
+- `tileset_32_index.json`：對照表。每個 tile 的 atlas 座標對應原 SWF 內的 character ID，供日後對照原始地圖資料（Obj_array 儲存的是 icon 編號）。
+- `misc/`：22 張非 32x32 的圖，單張使用，不入 atlas。其中四張 96×96 為大型敵人 sprite（佔 3×3 格），其餘 16×32、16×16、8×16、32×16 依尺寸判斷為 UI 零件與字元。
+- `reference_contact_sheet.png`：放大兩倍加間隔的人眼對照圖，非 Godot 使用。
+
+### Godot 2D 相關限制（查證所得）
+
+- 預設 texture filter 為 linear，會令 pixel art 模糊。需在 Project Settings → Rendering → Textures 將 Default Texture Filter 設為 Nearest。
+- Godot 4 使用 TileMapLayer node（非舊版 TileMap），每個 node 代表一層。
+- TileSet 建議使用單張 tilesheet（atlas）而非一圖一 tile，官方文件指出前者可用性較佳。
+- TileSet atlas 有 Use Texture Padding 選項，會自動在每個 tile 周圍加 1 pixel 透明邊防止接縫，官方建議保持開啟。
+- 匯入 atlas 後，Godot 會詢問是否自動由非透明區域生成 tiles，可一次過建立全部 tile。
+
+---
+
 ## 討論次序
 
 先做好 mechanics 全套（機制本身如何運作），再傾 level design 與 game balancing（例如地圖大小、數值具體多少）。數值、地圖規模等細節排後面處理。
