@@ -354,6 +354,17 @@ Cross、Luck、Dragon、Help、Note、FlyUp、FlyDown、Ice、Holy、KeyMagic、
 
 註：SWF 中 character 40、80、110、256 為 DefineShape（向量形狀，非點陣圖），故不在提取的圖檔內。
 
+### 音效：已提取
+
+SWF 內含 7 個音訊（DefineSound），全部為 MP3、11025Hz、mono、16kbps，已提取為獨立 mp3 檔（`audio_from_swf.zip`），ffprobe 驗證有效。
+
+- 短音效 5 個：0.20s、0.30s、0.30s、0.50s、1.38s。
+- 較長 2 個：6.00s（sound_078）、9.25s（sound_030）。此長度不足以構成循環 BGM，性質上較接近開場／結局／特定場合音樂。
+
+即原作沒有背景音樂，只有音效。此為 Flash game 年代的常見取捨（BGM 佔檔案體積）。
+
+實作註記：短音效在 Godot 用 WAV 優於 MP3——MP3 解碼有極小延遲，且編碼會在開頭加入靜音 padding（提取檔案的實際長度略長於 SWF 標示長度即源於此），對要求即時反應的音效有影響。是否轉檔未定。
+
 ### Godot 2D 相關限制（查證所得）
 
 - 預設 texture filter 為 linear，會令 pixel art 模糊。需在 Project Settings → Rendering → Textures 將 Default Texture Filter 設為 Nearest。
