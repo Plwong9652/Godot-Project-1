@@ -336,6 +336,23 @@ Cross、Luck、Dragon、Help、Note、FlyUp、FlyDown、Ice、Holy、KeyMagic、
 - `tileset_32_index.json`：對照表。每個 tile 的 atlas 座標對應原 SWF 內的 character ID，供日後對照原始地圖資料（Obj_array 儲存的是 icon 編號）。
 - `misc/`：22 張非 32x32 的圖，單張使用，不入 atlas。其中四張 96×96 為大型敵人 sprite（佔 3×3 格），其餘 16×32、16×16、8×16、32×16 依尺寸判斷為 UI 零件與字元。
 - `reference_contact_sheet.png`：放大兩倍加間隔的人眼對照圖，非 Godot 使用。
+- `icon_animation_map.json`：Icon 與動畫幀的對應表。每個 Icon 列出名稱、幀數、以及各幀在 atlas 內的 [column, row] 座標。
+
+### 動畫：原作有，決定跟原作做
+
+反編譯確認原作 142 個 sprite 中有 130 個為多幀，多數為兩幀循環——即先前抽出的 133 張圖中，大量看似重複的圖其實是同一個物件的兩個動畫幀，不是重複素材。
+
+分佈：
+
+- 39 個 Icon 為兩幀循環（多為敵人）。
+- 55 個 Icon 為靜態單幀（道具、地形、門、樓梯等）。
+- 6 個 Icon 為三至四幀（Icon210、Icon51、Icon105、Icon104、Icon103、Smallkey）。
+- 16 個 Icon 不使用 bitmap，為純向量繪製，在提取的圖檔中無對應項。
+- 20 張圖屬於 Player 與 NPC（玩家四方向行走各兩幀、白袍老人、紅袍商人、兩隻大型敵人的 32x32 版本），不經 Icon 系統擺放，故不在 Icon 對應表內。
+
+決定：跟原作做，保留動畫。實作上 Godot 可用 AnimatedSprite2D，或 TileSet atlas 內建的 animated tile 功能。
+
+註：SWF 中 character 40、80、110、256 為 DefineShape（向量形狀，非點陣圖），故不在提取的圖檔內。
 
 ### Godot 2D 相關限制（查證所得）
 
