@@ -373,7 +373,24 @@ SWF 內含 7 個音訊（DefineSound），全部為 MP3、11025Hz、mono、16kbp
 - `messages.json`：82 段文字，含劇情對白、提示、結局訊息。
 - `game_config.json`：51 組樓梯連接（上下層對應格位）、玩家初始值（生命 1000、攻 100、防 100、起始格 115、武器 75、盾 80、速度 6.4）。
 
+### 補充提取與更正
+
+初次提取有兩處錯誤，已更正：
+
+1. **巢狀 sprite 未追蹤。** 初次只掃描一層深度，因此「Icon → 內層 sprite → 圖」結構的項目找不到圖，被誤判為「純向量、無圖」。實際上 Icon53、Icon54 等都是巢狀結構。改為遞迴追蹤後，無圖的 Icon 由 16 個減至 4 個（Icon91、Icon200、Icon224、Icon240）。
+2. **漏抽一張 JPEG。** 初次只抽 DefineBitsLossless，遺漏了 DefineBitsJPEG3（char 110），已補入 misc。
+
+`icon_animation_map.json` 已重建，每個 Icon 現含：使用哪幾張圖、各圖尺寸、是否在 atlas 內（否則在 misc/）、atlas 座標。
+
+### 樓層預覽圖
+
+依 icon 層資料渲染 50 層樓的實際畫面（`floor_previews.zip`）。未能對應到圖的格子由 69 個減至 1 個（Icon240）。
+
+地圖資料結構確認：每層兩個 11×11 grid，**第一個為 icon 層**（地形、敵人、道具），**第二個為 event 層**（事件編號），索引為 row*11+col。初次記錄時將兩層次序寫反，已更正。第一個 array（offset 28444）為 DefObj_array 範本，不屬於任何樓層。
+
 至此 SWF 內容已全部提取完畢：圖、音效、資料三層皆有，日後不需再回頭開啟原檔。
+
+仍未提取（判斷為 renew 時不會沿用，故不處理）：126 個 DefineText（靜態向量文字，需比對字形表才能還原）、18 個 DefineButton2（按鈕定義）、純向量繪製的 UI 圖形。
 
 實作註記：短音效在 Godot 用 WAV 優於 MP3——MP3 解碼有極小延遲，且編碼會在開頭加入靜音 padding（提取檔案的實際長度略長於 SWF 標示長度即源於此），對要求即時反應的音效有影響。是否轉檔未定。
 
