@@ -276,6 +276,48 @@ A 原本掛著的一批延伸元素（職業、多重職業、獨立技能樹、
 
 ---
 
+---
+
+## 基準版本：以手上的 SWF 版本為準
+
+規則、數值結構、系統範圍全部以手上這個 SWF 版本為準，不採用其他魔塔版本的做法。以下為直接反編譯該 SWF 的 ActionScript 得出的事實，非推測。
+
+### 存檔
+
+- 五個存檔位（Load0 至 Load4）。
+- 儲存的是 snapshot：玩家狀態（SavPlayer）與各層物件狀態（SavObj_array），即單一時間點的完整狀態。
+- 沒有復盤／退步／回溯系統，程式碼中無任何 undo 或 history 相關函式。
+- 原版以 Flash SharedObject 實作（存檔名 czlmt200401）；在 Godot 需另選對應做法。
+- 快捷鍵：S 存檔、L 讀檔、R 重置。
+
+### 樓層
+
+- 只有 TotalFloorNum、FloorNo、MaxFloorNo，沒有「區域／分區」概念。
+- 血瓶恢復量、寶石加成等數值屬於各個 icon 自身的屬性（Obj_array 按 floor 儲存 icon），不是由所在區域推算出來。此點與部分其他魔塔版本（按區域決定數值）不同，本專案以 SWF 版本為準。
+
+### 玩家屬性
+
+Life、Offense、Defense、Money、Weapon、Shield、KeyYellow、KeyBlue、KeyRed、MagicDamage、Multiple、Speed、BuyNum。
+
+沒有經驗值系統：屬性提升透過商店以 Money 購買（ShopLife／ShopOffense／ShopDefense 三選一）。此即先前記錄中「祭壇三選一」的對應實作。
+
+### 道具（Cowry）
+
+Cross、Luck、Dragon、Help、Note、FlyUp、FlyDown、Ice、Holy、KeyMagic、Pick、Quake、Bomb、JumpUp、JumpDown、Jump。
+
+兩種類型，程式碼上明確分開：
+
+- Unlock 型：Note（怪物手冊）、Help 等，以 enabled 屬性控制，拿到後永久開通。
+- 消耗／次數型：如 Jump，有數量顯示（CowryJumpNum_txt）。
+
+### 戰鬥
+
+- 計算函式：calcDamage、calcMagicDamage。
+- 魔法攻擊分四個方向（MagicUp／MagicDown／MagicLeft／MagicRight）。
+- 打不過的敵人顯示「!!!」。
+
+---
+
 ## 討論次序
 
 先做好 mechanics 全套（機制本身如何運作），再傾 level design 與 game balancing（例如地圖大小、數值具體多少）。數值、地圖規模等細節排後面處理。
