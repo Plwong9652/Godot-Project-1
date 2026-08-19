@@ -1,0 +1,702 @@
+[
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 40,
+  "Offense": 400,
+  "Defense": 315,
+  "Money": 0.0,
+  "Name": "高级石头人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 180,
+  "Offense": 460,
+  "Defense": 360,
+  "Money": 200,
+  "Name": "高级卫兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": true,
+  "Life": 1500,
+  "Offense": 600,
+  "Defense": 250,
+  "Money": 800,
+  "Name": "魔龙"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 8000,
+  "Offense": 5000,
+  "Defense": 1000,
+  "Money": 500,
+  "Name": "魔王"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 4500,
+  "Offense": 560,
+  "Defense": 310,
+  "Money": 1000,
+  "Name": "大法师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 180,
+  "Offense": 430,
+  "Defense": 210,
+  "Money": 120,
+  "Name": "黑暗骑士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 120,
+  "Offense": 150,
+  "Defense": 50,
+  "Money": 100,
+  "Name": "骑士队长"
+ },
+ {
+  "Magic": -50,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 230,
+  "Offense": 450,
+  "Defense": 100,
+  "Money": 100,
+  "Name": "魔法警卫"
+ },
+ {
+  "Magic": 200,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 200,
+  "Offense": 380,
+  "Defense": 130,
+  "Money": 90,
+  "Name": "高级巫师"
+ },
+ {
+  "Magic": 100,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 220,
+  "Offense": 370,
+  "Defense": 110,
+  "Money": 80,
+  "Name": "初级巫师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 200,
+  "Offense": 390,
+  "Defense": 90,
+  "Money": 50,
+  "Name": "吸血蝙蝠"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 360,
+  "Offense": 310,
+  "Defense": 20,
+  "Money": 40,
+  "Name": "史来姆王"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 160,
+  "Offense": 230,
+  "Defense": 105,
+  "Money": 65,
+  "Name": "骑士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 680,
+  "Defense": 50,
+  "Money": 55,
+  "Name": "双手剑士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 210,
+  "Offense": 200,
+  "Defense": 65,
+  "Money": 45,
+  "Name": "战士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 220,
+  "Offense": 180,
+  "Defense": 30,
+  "Money": 35,
+  "Name": "鬼战士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 320,
+  "Offense": 140,
+  "Defense": 20,
+  "Money": 30,
+  "Name": "幽灵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 1200,
+  "Offense": 180,
+  "Defense": 20,
+  "Money": 100,
+  "Name": "大乌贼"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": true,
+  "Dragon": false,
+  "Life": 444,
+  "Offense": 199,
+  "Defense": 66,
+  "Money": 144,
+  "Name": "吸血鬼"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 20,
+  "Offense": 100,
+  "Defense": 68,
+  "Money": 28,
+  "Name": "石头人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": true,
+  "Dragon": false,
+  "Life": 320,
+  "Offense": 120,
+  "Defense": 15,
+  "Money": 30,
+  "Name": "兽人武士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 95,
+  "Defense": 30,
+  "Money": 22,
+  "Name": "高级法师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": true,
+  "Dragon": false,
+  "Life": 260,
+  "Offense": 85,
+  "Defense": 5,
+  "Money": 18,
+  "Name": "兽人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 60,
+  "Offense": 100,
+  "Defense": 8,
+  "Money": 12,
+  "Name": "大蝙蝠"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 130,
+  "Offense": 60,
+  "Defense": 3,
+  "Money": 8,
+  "Name": "大史来姆"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 180,
+  "Defense": 110,
+  "Money": 50,
+  "Name": "中级卫兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 65,
+  "Defense": 15,
+  "Money": 30,
+  "Name": "骷髅队长"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 50,
+  "Offense": 48,
+  "Defense": 22,
+  "Money": 12,
+  "Name": "初级卫兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 55,
+  "Offense": 52,
+  "Defense": 12,
+  "Money": 8,
+  "Name": "骷髅士兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 50,
+  "Offense": 42,
+  "Defense": 6,
+  "Money": 6,
+  "Name": "骷髅人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 60,
+  "Offense": 32,
+  "Defense": 8,
+  "Money": 5,
+  "Name": "初级法师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 35,
+  "Offense": 38,
+  "Defense": 3,
+  "Money": 3,
+  "Name": "小蝙蝠"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 45,
+  "Offense": 20,
+  "Defense": 2,
+  "Money": 2,
+  "Name": "红色史来姆"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 35,
+  "Offense": 18,
+  "Defense": 1,
+  "Money": 1,
+  "Name": "绿色史来姆"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 600,
+  "Offense": 10,
+  "Defense": 10,
+  "Money": 0.0,
+  "Name": "勇士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 40,
+  "Offense": 400,
+  "Defense": 320,
+  "Money": 0.0,
+  "Name": "高级石头人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 180,
+  "Offense": 460,
+  "Defense": 360,
+  "Money": 100,
+  "Name": "高级卫兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": true,
+  "Life": 1500,
+  "Offense": 600,
+  "Defense": 250,
+  "Money": 0.0,
+  "Name": "魔龙"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 8000,
+  "Offense": 5000,
+  "Defense": 1000,
+  "Money": 0.0,
+  "Name": "魔王"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 2000,
+  "Offense": 680,
+  "Defense": 590,
+  "Money": 0.0,
+  "Name": "大法师"
+ },
+ {
+  "Magic": 200,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 180,
+  "Offense": 430,
+  "Defense": 210,
+  "Money": 120,
+  "Name": "黑暗骑士"
+ },
+ {
+  "Magic": 200,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 180,
+  "Offense": 150,
+  "Defense": 50,
+  "Money": 100,
+  "Name": "骑士队长"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 230,
+  "Offense": 450,
+  "Defense": 100,
+  "Money": 100,
+  "Name": "魔法警卫"
+ },
+ {
+  "Magic": -50,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 200,
+  "Offense": 380,
+  "Defense": 130,
+  "Money": 90,
+  "Name": "高级巫师"
+ },
+ {
+  "Magic": 100,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 220,
+  "Offense": 370,
+  "Defense": 110,
+  "Money": 80,
+  "Name": "初级巫师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 200,
+  "Offense": 390,
+  "Defense": 90,
+  "Money": 50,
+  "Name": "吸血蝙蝠"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 360,
+  "Offense": 310,
+  "Defense": 20,
+  "Money": 40,
+  "Name": "史来姆王"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 160,
+  "Offense": 230,
+  "Defense": 105,
+  "Money": 65,
+  "Name": "骑士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 680,
+  "Defense": 50,
+  "Money": 55,
+  "Name": "双手剑士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 210,
+  "Offense": 200,
+  "Defense": 65,
+  "Money": 45,
+  "Name": "战士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 220,
+  "Offense": 180,
+  "Defense": 30,
+  "Money": 35,
+  "Name": "鬼战士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 320,
+  "Offense": 140,
+  "Defense": 20,
+  "Money": 30,
+  "Name": "幽灵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 1200,
+  "Offense": 180,
+  "Defense": 20,
+  "Money": 100,
+  "Name": "大乌贼"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": true,
+  "Dragon": false,
+  "Life": 444,
+  "Offense": 199,
+  "Defense": 66,
+  "Money": 144,
+  "Name": "吸血鬼"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 20,
+  "Offense": 100,
+  "Defense": 68,
+  "Money": 28,
+  "Name": "石头人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": true,
+  "Dragon": false,
+  "Life": 320,
+  "Offense": 120,
+  "Defense": 15,
+  "Money": 30,
+  "Name": "兽人武士"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 95,
+  "Defense": 30,
+  "Money": 22,
+  "Name": "高级法师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": true,
+  "Dragon": false,
+  "Life": 260,
+  "Offense": 85,
+  "Defense": 5,
+  "Money": 18,
+  "Name": "兽人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 60,
+  "Offense": 100,
+  "Defense": 8,
+  "Money": 12,
+  "Name": "大蝙蝠"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 130,
+  "Offense": 60,
+  "Defense": 3,
+  "Money": 8,
+  "Name": "大史来姆"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 180,
+  "Defense": 110,
+  "Money": 50,
+  "Name": "中级卫兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 100,
+  "Offense": 65,
+  "Defense": 15,
+  "Money": 30,
+  "Name": "骷髅队长"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 50,
+  "Offense": 48,
+  "Defense": 22,
+  "Money": 12,
+  "Name": "初级卫兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 55,
+  "Offense": 52,
+  "Defense": 12,
+  "Money": 8,
+  "Name": "骷髅士兵"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 50,
+  "Offense": 42,
+  "Defense": 6,
+  "Money": 6,
+  "Name": "骷髅人"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 60,
+  "Offense": 32,
+  "Defense": 8,
+  "Money": 5,
+  "Name": "初级法师"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 35,
+  "Offense": 38,
+  "Defense": 3,
+  "Money": 3,
+  "Name": "小蝙蝠"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 45,
+  "Offense": 20,
+  "Defense": 2,
+  "Money": 2,
+  "Name": "红色史来姆"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 35,
+  "Offense": 18,
+  "Defense": 1,
+  "Money": 1,
+  "Name": "绿色史来姆"
+ },
+ {
+  "Magic": 0.0,
+  "Cross": false,
+  "Dragon": false,
+  "Life": 600,
+  "Offense": 10,
+  "Defense": 10,
+  "Money": 0.0,
+  "Name": "勇士"
+ }
+]

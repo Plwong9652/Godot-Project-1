@@ -1,0 +1,1472 @@
+{
+ "tile_size": 32,
+ "columns": 12,
+ "rows": 12,
+ "total": 133,
+ "note": "atlas_coords 對應 Godot TileSet atlas 內的 tile 座標；source_char_id 為原 SWF 內的 character ID，用於日後對照原始資料",
+ "tiles": [
+  {
+   "atlas_coords": [
+    0,
+    0
+   ],
+   "source_char_id": 2,
+   "pixel_pos": [
+    0,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    0
+   ],
+   "source_char_id": 7,
+   "pixel_pos": [
+    32,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    0
+   ],
+   "source_char_id": 11,
+   "pixel_pos": [
+    64,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    0
+   ],
+   "source_char_id": 14,
+   "pixel_pos": [
+    96,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    0
+   ],
+   "source_char_id": 17,
+   "pixel_pos": [
+    128,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    0
+   ],
+   "source_char_id": 20,
+   "pixel_pos": [
+    160,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    0
+   ],
+   "source_char_id": 22,
+   "pixel_pos": [
+    192,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    0
+   ],
+   "source_char_id": 25,
+   "pixel_pos": [
+    224,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    0
+   ],
+   "source_char_id": 27,
+   "pixel_pos": [
+    256,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    0
+   ],
+   "source_char_id": 31,
+   "pixel_pos": [
+    288,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    0
+   ],
+   "source_char_id": 33,
+   "pixel_pos": [
+    320,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    0
+   ],
+   "source_char_id": 37,
+   "pixel_pos": [
+    352,
+    0
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    1
+   ],
+   "source_char_id": 39,
+   "pixel_pos": [
+    0,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    1
+   ],
+   "source_char_id": 42,
+   "pixel_pos": [
+    32,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    1
+   ],
+   "source_char_id": 44,
+   "pixel_pos": [
+    64,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    1
+   ],
+   "source_char_id": 57,
+   "pixel_pos": [
+    96,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    1
+   ],
+   "source_char_id": 59,
+   "pixel_pos": [
+    128,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    1
+   ],
+   "source_char_id": 64,
+   "pixel_pos": [
+    160,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    1
+   ],
+   "source_char_id": 67,
+   "pixel_pos": [
+    192,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    1
+   ],
+   "source_char_id": 70,
+   "pixel_pos": [
+    224,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    1
+   ],
+   "source_char_id": 73,
+   "pixel_pos": [
+    256,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    1
+   ],
+   "source_char_id": 75,
+   "pixel_pos": [
+    288,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    1
+   ],
+   "source_char_id": 79,
+   "pixel_pos": [
+    320,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    1
+   ],
+   "source_char_id": 81,
+   "pixel_pos": [
+    352,
+    32
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    2
+   ],
+   "source_char_id": 90,
+   "pixel_pos": [
+    0,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    2
+   ],
+   "source_char_id": 92,
+   "pixel_pos": [
+    32,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    2
+   ],
+   "source_char_id": 97,
+   "pixel_pos": [
+    64,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    2
+   ],
+   "source_char_id": 99,
+   "pixel_pos": [
+    96,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    2
+   ],
+   "source_char_id": 103,
+   "pixel_pos": [
+    128,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    2
+   ],
+   "source_char_id": 105,
+   "pixel_pos": [
+    160,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    2
+   ],
+   "source_char_id": 119,
+   "pixel_pos": [
+    192,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    2
+   ],
+   "source_char_id": 121,
+   "pixel_pos": [
+    224,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    2
+   ],
+   "source_char_id": 130,
+   "pixel_pos": [
+    256,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    2
+   ],
+   "source_char_id": 133,
+   "pixel_pos": [
+    288,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    2
+   ],
+   "source_char_id": 139,
+   "pixel_pos": [
+    320,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    2
+   ],
+   "source_char_id": 147,
+   "pixel_pos": [
+    352,
+    64
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    3
+   ],
+   "source_char_id": 150,
+   "pixel_pos": [
+    0,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    3
+   ],
+   "source_char_id": 159,
+   "pixel_pos": [
+    32,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    3
+   ],
+   "source_char_id": 161,
+   "pixel_pos": [
+    64,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    3
+   ],
+   "source_char_id": 176,
+   "pixel_pos": [
+    96,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    3
+   ],
+   "source_char_id": 178,
+   "pixel_pos": [
+    128,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    3
+   ],
+   "source_char_id": 181,
+   "pixel_pos": [
+    160,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    3
+   ],
+   "source_char_id": 183,
+   "pixel_pos": [
+    192,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    3
+   ],
+   "source_char_id": 184,
+   "pixel_pos": [
+    224,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    3
+   ],
+   "source_char_id": 186,
+   "pixel_pos": [
+    256,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    3
+   ],
+   "source_char_id": 189,
+   "pixel_pos": [
+    288,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    3
+   ],
+   "source_char_id": 192,
+   "pixel_pos": [
+    320,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    3
+   ],
+   "source_char_id": 195,
+   "pixel_pos": [
+    352,
+    96
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    4
+   ],
+   "source_char_id": 198,
+   "pixel_pos": [
+    0,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    4
+   ],
+   "source_char_id": 201,
+   "pixel_pos": [
+    32,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    4
+   ],
+   "source_char_id": 204,
+   "pixel_pos": [
+    64,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    4
+   ],
+   "source_char_id": 207,
+   "pixel_pos": [
+    96,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    4
+   ],
+   "source_char_id": 210,
+   "pixel_pos": [
+    128,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    4
+   ],
+   "source_char_id": 213,
+   "pixel_pos": [
+    160,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    4
+   ],
+   "source_char_id": 216,
+   "pixel_pos": [
+    192,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    4
+   ],
+   "source_char_id": 219,
+   "pixel_pos": [
+    224,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    4
+   ],
+   "source_char_id": 222,
+   "pixel_pos": [
+    256,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    4
+   ],
+   "source_char_id": 225,
+   "pixel_pos": [
+    288,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    4
+   ],
+   "source_char_id": 228,
+   "pixel_pos": [
+    320,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    4
+   ],
+   "source_char_id": 231,
+   "pixel_pos": [
+    352,
+    128
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    5
+   ],
+   "source_char_id": 234,
+   "pixel_pos": [
+    0,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    5
+   ],
+   "source_char_id": 237,
+   "pixel_pos": [
+    32,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    5
+   ],
+   "source_char_id": 240,
+   "pixel_pos": [
+    64,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    5
+   ],
+   "source_char_id": 242,
+   "pixel_pos": [
+    96,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    5
+   ],
+   "source_char_id": 246,
+   "pixel_pos": [
+    128,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    5
+   ],
+   "source_char_id": 268,
+   "pixel_pos": [
+    160,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    5
+   ],
+   "source_char_id": 271,
+   "pixel_pos": [
+    192,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    5
+   ],
+   "source_char_id": 275,
+   "pixel_pos": [
+    224,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    5
+   ],
+   "source_char_id": 277,
+   "pixel_pos": [
+    256,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    5
+   ],
+   "source_char_id": 279,
+   "pixel_pos": [
+    288,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    5
+   ],
+   "source_char_id": 282,
+   "pixel_pos": [
+    320,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    5
+   ],
+   "source_char_id": 284,
+   "pixel_pos": [
+    352,
+    160
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    6
+   ],
+   "source_char_id": 286,
+   "pixel_pos": [
+    0,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    6
+   ],
+   "source_char_id": 289,
+   "pixel_pos": [
+    32,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    6
+   ],
+   "source_char_id": 291,
+   "pixel_pos": [
+    64,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    6
+   ],
+   "source_char_id": 293,
+   "pixel_pos": [
+    96,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    6
+   ],
+   "source_char_id": 296,
+   "pixel_pos": [
+    128,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    6
+   ],
+   "source_char_id": 298,
+   "pixel_pos": [
+    160,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    6
+   ],
+   "source_char_id": 300,
+   "pixel_pos": [
+    192,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    6
+   ],
+   "source_char_id": 305,
+   "pixel_pos": [
+    224,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    6
+   ],
+   "source_char_id": 308,
+   "pixel_pos": [
+    256,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    6
+   ],
+   "source_char_id": 330,
+   "pixel_pos": [
+    288,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    6
+   ],
+   "source_char_id": 336,
+   "pixel_pos": [
+    320,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    6
+   ],
+   "source_char_id": 338,
+   "pixel_pos": [
+    352,
+    192
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    7
+   ],
+   "source_char_id": 341,
+   "pixel_pos": [
+    0,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    7
+   ],
+   "source_char_id": 343,
+   "pixel_pos": [
+    32,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    7
+   ],
+   "source_char_id": 346,
+   "pixel_pos": [
+    64,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    7
+   ],
+   "source_char_id": 348,
+   "pixel_pos": [
+    96,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    7
+   ],
+   "source_char_id": 351,
+   "pixel_pos": [
+    128,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    7
+   ],
+   "source_char_id": 353,
+   "pixel_pos": [
+    160,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    7
+   ],
+   "source_char_id": 356,
+   "pixel_pos": [
+    192,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    7
+   ],
+   "source_char_id": 358,
+   "pixel_pos": [
+    224,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    7
+   ],
+   "source_char_id": 361,
+   "pixel_pos": [
+    256,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    7
+   ],
+   "source_char_id": 363,
+   "pixel_pos": [
+    288,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    7
+   ],
+   "source_char_id": 366,
+   "pixel_pos": [
+    320,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    7
+   ],
+   "source_char_id": 368,
+   "pixel_pos": [
+    352,
+    224
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    8
+   ],
+   "source_char_id": 371,
+   "pixel_pos": [
+    0,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    8
+   ],
+   "source_char_id": 373,
+   "pixel_pos": [
+    32,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    8
+   ],
+   "source_char_id": 376,
+   "pixel_pos": [
+    64,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    8
+   ],
+   "source_char_id": 378,
+   "pixel_pos": [
+    96,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    8
+   ],
+   "source_char_id": 381,
+   "pixel_pos": [
+    128,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    8
+   ],
+   "source_char_id": 383,
+   "pixel_pos": [
+    160,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    8
+   ],
+   "source_char_id": 386,
+   "pixel_pos": [
+    192,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    8
+   ],
+   "source_char_id": 388,
+   "pixel_pos": [
+    224,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    8
+   ],
+   "source_char_id": 391,
+   "pixel_pos": [
+    256,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    8
+   ],
+   "source_char_id": 393,
+   "pixel_pos": [
+    288,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    8
+   ],
+   "source_char_id": 396,
+   "pixel_pos": [
+    320,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    8
+   ],
+   "source_char_id": 398,
+   "pixel_pos": [
+    352,
+    256
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    9
+   ],
+   "source_char_id": 401,
+   "pixel_pos": [
+    0,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    9
+   ],
+   "source_char_id": 403,
+   "pixel_pos": [
+    32,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    9
+   ],
+   "source_char_id": 406,
+   "pixel_pos": [
+    64,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    9
+   ],
+   "source_char_id": 408,
+   "pixel_pos": [
+    96,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    9
+   ],
+   "source_char_id": 411,
+   "pixel_pos": [
+    128,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    9
+   ],
+   "source_char_id": 413,
+   "pixel_pos": [
+    160,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    9
+   ],
+   "source_char_id": 416,
+   "pixel_pos": [
+    192,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    9
+   ],
+   "source_char_id": 418,
+   "pixel_pos": [
+    224,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    9
+   ],
+   "source_char_id": 421,
+   "pixel_pos": [
+    256,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    9
+   ],
+   "source_char_id": 423,
+   "pixel_pos": [
+    288,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    9
+   ],
+   "source_char_id": 426,
+   "pixel_pos": [
+    320,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    9
+   ],
+   "source_char_id": 428,
+   "pixel_pos": [
+    352,
+    288
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    10
+   ],
+   "source_char_id": 431,
+   "pixel_pos": [
+    0,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    1,
+    10
+   ],
+   "source_char_id": 433,
+   "pixel_pos": [
+    32,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    2,
+    10
+   ],
+   "source_char_id": 436,
+   "pixel_pos": [
+    64,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    3,
+    10
+   ],
+   "source_char_id": 438,
+   "pixel_pos": [
+    96,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    4,
+    10
+   ],
+   "source_char_id": 441,
+   "pixel_pos": [
+    128,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    5,
+    10
+   ],
+   "source_char_id": 443,
+   "pixel_pos": [
+    160,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    6,
+    10
+   ],
+   "source_char_id": 446,
+   "pixel_pos": [
+    192,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    7,
+    10
+   ],
+   "source_char_id": 448,
+   "pixel_pos": [
+    224,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    8,
+    10
+   ],
+   "source_char_id": 479,
+   "pixel_pos": [
+    256,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    9,
+    10
+   ],
+   "source_char_id": 481,
+   "pixel_pos": [
+    288,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    10,
+    10
+   ],
+   "source_char_id": 484,
+   "pixel_pos": [
+    320,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    11,
+    10
+   ],
+   "source_char_id": 486,
+   "pixel_pos": [
+    352,
+    320
+   ]
+  },
+  {
+   "atlas_coords": [
+    0,
+    11
+   ],
+   "source_char_id": 512,
+   "pixel_pos": [
+    0,
+    352
+   ]
+  }
+ ]
+}

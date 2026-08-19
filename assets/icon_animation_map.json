@@ -1,0 +1,3726 @@
+{
+ "note": "完整巢狀追蹤。bitmap_ids 為該 Icon 實際使用的圖；in_atlas 標示該圖是否在 tileset_32.png 內（否則在 misc/）。atlas_coords 為 [column,row]。",
+ "icons": [
+  {
+   "icon_name": "Icon1",
+   "sprite_id": 450,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    446,
+    448
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon10",
+   "sprite_id": 420,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    416,
+    418
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon100",
+   "sprite_id": 274,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon101",
+   "sprite_id": 273,
+   "swf_frames": 1,
+   "bitmap_ids": [
+    271
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     5
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon102",
+   "sprite_id": 270,
+   "swf_frames": 1,
+   "bitmap_ids": [
+    268
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     5,
+     5
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon103",
+   "sprite_id": 267,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    512,
+    262,
+    264
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     16,
+     32
+    ],
+    [
+     16,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     11
+    ],
+    null,
+    null
+   ],
+   "in_atlas": [
+    true,
+    false,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon104",
+   "sprite_id": 260,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    512,
+    255,
+    257
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     16,
+     32
+    ],
+    [
+     16,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     11
+    ],
+    null,
+    null
+   ],
+   "in_atlas": [
+    true,
+    false,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon105",
+   "sprite_id": 254,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    249,
+    512,
+    251
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     16,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     16,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    null,
+    [
+     0,
+     11
+    ],
+    null
+   ],
+   "in_atlas": [
+    false,
+    true,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon106",
+   "sprite_id": 248,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    246
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     5
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon107",
+   "sprite_id": 245,
+   "swf_frames": 15,
+   "bitmap_ids": [
+    48,
+    50
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     16,
+     32
+    ],
+    [
+     16,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    null,
+    null
+   ],
+   "in_atlas": [
+    false,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon11",
+   "sprite_id": 29,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    25,
+    27
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     7,
+     0
+    ],
+    [
+     8,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon110",
+   "sprite_id": 10,
+   "swf_frames": 15,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon111",
+   "sprite_id": 244,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    240,
+    242
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon112",
+   "sprite_id": 163,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    159,
+    161
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon12",
+   "sprite_id": 415,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    411,
+    413
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     9
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon121",
+   "sprite_id": 113,
+   "swf_frames": 10,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon122",
+   "sprite_id": 114,
+   "swf_frames": 10,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon123",
+   "sprite_id": 116,
+   "swf_frames": 10,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon124",
+   "sprite_id": 117,
+   "swf_frames": 10,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon125",
+   "sprite_id": 127,
+   "swf_frames": 4,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon126",
+   "sprite_id": 143,
+   "swf_frames": 3,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon13",
+   "sprite_id": 410,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    406,
+    408
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     9
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon14",
+   "sprite_id": 405,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    401,
+    403
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon15",
+   "sprite_id": 400,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    396,
+    398
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     8
+    ],
+    [
+     11,
+     8
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon16",
+   "sprite_id": 35,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    31,
+    33
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     9,
+     0
+    ],
+    [
+     10,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon17",
+   "sprite_id": 175,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    171,
+    173
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     96,
+     96
+    ],
+    [
+     96,
+     96
+    ]
+   ],
+   "atlas_coords": [
+    null,
+    null
+   ],
+   "in_atlas": [
+    false,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon18",
+   "sprite_id": 395,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    391,
+    393
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     8
+    ],
+    [
+     9,
+     8
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon19",
+   "sprite_id": 390,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    386,
+    388
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon2",
+   "sprite_id": 445,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    441,
+    443
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     10
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon20",
+   "sprite_id": 385,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    381,
+    383
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     8
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon200",
+   "sprite_id": 137,
+   "swf_frames": 5,
+   "bitmap_ids": [],
+   "frame_count": 0,
+   "sizes": [],
+   "atlas_coords": [],
+   "in_atlas": []
+  },
+  {
+   "icon_name": "Icon201",
+   "sprite_id": 95,
+   "swf_frames": 48,
+   "bitmap_ids": [
+    7,
+    90,
+    92
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon202",
+   "sprite_id": 96,
+   "swf_frames": 32,
+   "bitmap_ids": [
+    7,
+    90,
+    92
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon203",
+   "sprite_id": 89,
+   "swf_frames": 71,
+   "bitmap_ids": [
+    73,
+    75,
+    79,
+    81,
+    84
+   ],
+   "frame_count": 5,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     16,
+     16
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     1
+    ],
+    [
+     9,
+     1
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     11,
+     1
+    ],
+    null
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon209",
+   "sprite_id": 109,
+   "swf_frames": 130,
+   "bitmap_ids": [
+    90,
+    92
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon21",
+   "sprite_id": 380,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    376,
+    378
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     8
+    ],
+    [
+     3,
+     8
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon210",
+   "sprite_id": 63,
+   "swf_frames": 93,
+   "bitmap_ids": [
+    37,
+    39,
+    42,
+    44,
+    48,
+    50,
+    7,
+    57,
+    59
+   ],
+   "frame_count": 9,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     16,
+     32
+    ],
+    [
+     16,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     11,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    null,
+    null,
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon215",
+   "sprite_id": 115,
+   "swf_frames": 49,
+   "bitmap_ids": [
+    7,
+    90,
+    92
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon22",
+   "sprite_id": 375,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    371,
+    373
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     8
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon220",
+   "sprite_id": 36,
+   "swf_frames": 66,
+   "bitmap_ids": [
+    25,
+    27,
+    31,
+    33
+   ],
+   "frame_count": 4,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     7,
+     0
+    ],
+    [
+     8,
+     0
+    ],
+    [
+     9,
+     0
+    ],
+    [
+     10,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon224",
+   "sprite_id": 158,
+   "swf_frames": 3,
+   "bitmap_ids": [],
+   "frame_count": 0,
+   "sizes": [],
+   "atlas_coords": [],
+   "in_atlas": []
+  },
+  {
+   "icon_name": "Icon226",
+   "sprite_id": 157,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon229",
+   "sprite_id": 118,
+   "swf_frames": 100,
+   "bitmap_ids": [
+    7,
+    90,
+    92
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon23",
+   "sprite_id": 370,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    366,
+    368
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     7
+    ],
+    [
+     11,
+     7
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon231",
+   "sprite_id": 125,
+   "swf_frames": 68,
+   "bitmap_ids": [
+    119,
+    121
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon232",
+   "sprite_id": 124,
+   "swf_frames": 106,
+   "bitmap_ids": [
+    119,
+    121
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon233",
+   "sprite_id": 126,
+   "swf_frames": 3,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon235",
+   "sprite_id": 136,
+   "swf_frames": 36,
+   "bitmap_ids": [
+    90,
+    92
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon239",
+   "sprite_id": 128,
+   "swf_frames": 2,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon24",
+   "sprite_id": 365,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    361,
+    363
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     7
+    ],
+    [
+     9,
+     7
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon240",
+   "sprite_id": 138,
+   "swf_frames": 13,
+   "bitmap_ids": [],
+   "frame_count": 0,
+   "sizes": [],
+   "atlas_coords": [],
+   "in_atlas": []
+  },
+  {
+   "icon_name": "Icon241",
+   "sprite_id": 144,
+   "swf_frames": 3,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon242",
+   "sprite_id": 142,
+   "swf_frames": 102,
+   "bitmap_ids": [
+    119,
+    121,
+    73,
+    75,
+    79,
+    81,
+    139
+   ],
+   "frame_count": 7,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     8,
+     1
+    ],
+    [
+     9,
+     1
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     11,
+     1
+    ],
+    [
+     10,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon243",
+   "sprite_id": 146,
+   "swf_frames": 20,
+   "bitmap_ids": [
+    7,
+    79,
+    81
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     11,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon244",
+   "sprite_id": 145,
+   "swf_frames": 2,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon247",
+   "sprite_id": 153,
+   "swf_frames": 4,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon248",
+   "sprite_id": 156,
+   "swf_frames": 3,
+   "bitmap_ids": [
+    7
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon249",
+   "sprite_id": 155,
+   "swf_frames": 57,
+   "bitmap_ids": [
+    73,
+    75,
+    79,
+    81
+   ],
+   "frame_count": 4,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     1
+    ],
+    [
+     9,
+     1
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     11,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon25",
+   "sprite_id": 360,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    356,
+    358
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     7
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon250",
+   "sprite_id": 164,
+   "swf_frames": 27,
+   "bitmap_ids": [
+    159,
+    161
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon251",
+   "sprite_id": 165,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    159,
+    161
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon26",
+   "sprite_id": 355,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    351,
+    353
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon27",
+   "sprite_id": 83,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    79,
+    81
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     1
+    ],
+    [
+     11,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon28",
+   "sprite_id": 123,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    119,
+    121
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon29",
+   "sprite_id": 350,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    346,
+    348
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon3",
+   "sprite_id": 440,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    436,
+    438
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     10
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon30",
+   "sprite_id": 345,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    341,
+    343
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon31",
+   "sprite_id": 77,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    73,
+    75
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     1
+    ],
+    [
+     9,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon32",
+   "sprite_id": 170,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    166,
+    168
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     96,
+     96
+    ],
+    [
+     96,
+     96
+    ]
+   ],
+   "atlas_coords": [
+    null,
+    null
+   ],
+   "in_atlas": [
+    false,
+    false
+   ]
+  },
+  {
+   "icon_name": "Icon33",
+   "sprite_id": 340,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    336,
+    338
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     6
+    ],
+    [
+     11,
+     6
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon4",
+   "sprite_id": 435,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    431,
+    433
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     10
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon5",
+   "sprite_id": 41,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    37,
+    39
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     11,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon51",
+   "sprite_id": 188,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    181,
+    184,
+    183,
+    186
+   ],
+   "frame_count": 4,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     5,
+     3
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     8,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon52",
+   "sprite_id": 94,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    90,
+    92
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon53",
+   "sprite_id": 102,
+   "swf_frames": 10,
+   "bitmap_ids": [
+    97,
+    99
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon54",
+   "sprite_id": 108,
+   "swf_frames": 10,
+   "bitmap_ids": [
+    103,
+    105
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon55",
+   "sprite_id": 24,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    20,
+    22
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     5,
+     0
+    ],
+    [
+     6,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon56",
+   "sprite_id": 180,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    176,
+    178
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon6",
+   "sprite_id": 46,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    42,
+    44
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon61",
+   "sprite_id": 239,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    237
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     5
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon62",
+   "sprite_id": 236,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    234
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     5
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon63",
+   "sprite_id": 233,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    231
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     11,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon64",
+   "sprite_id": 230,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    228
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon65",
+   "sprite_id": 227,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    225
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     9,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon66",
+   "sprite_id": 224,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    222
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon67",
+   "sprite_id": 221,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    219
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     7,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon7",
+   "sprite_id": 430,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    426,
+    428
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     9
+    ],
+    [
+     11,
+     9
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon71",
+   "sprite_id": 218,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    216
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon72",
+   "sprite_id": 215,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    213
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     5,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon73",
+   "sprite_id": 212,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    210
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon74",
+   "sprite_id": 194,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    192
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     10,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon75",
+   "sprite_id": 209,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    207
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     3,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon76",
+   "sprite_id": 206,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    204
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon77",
+   "sprite_id": 203,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    201
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     1,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon78",
+   "sprite_id": 200,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    198
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     4
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon79",
+   "sprite_id": 191,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    189
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     9,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon8",
+   "sprite_id": 61,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    57,
+    59
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon80",
+   "sprite_id": 197,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    195
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     11,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon81",
+   "sprite_id": 13,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    11
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     2,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon82",
+   "sprite_id": 16,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    14
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     3,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon83",
+   "sprite_id": 5,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    2
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon84",
+   "sprite_id": 149,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    147
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     11,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon85",
+   "sprite_id": 332,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    330
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     9,
+     6
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon86",
+   "sprite_id": 310,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    308
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     6
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon87",
+   "sprite_id": 307,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    305
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     7,
+     6
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon88",
+   "sprite_id": 66,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    64
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     5,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon89",
+   "sprite_id": 152,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    150
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     0,
+     3
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon9",
+   "sprite_id": 425,
+   "swf_frames": 6,
+   "bitmap_ids": [
+    421,
+    423
+   ],
+   "frame_count": 2,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     9
+    ]
+   ],
+   "in_atlas": [
+    true,
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon90",
+   "sprite_id": 69,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    67
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     6,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon91",
+   "sprite_id": 112,
+   "swf_frames": 9,
+   "bitmap_ids": [],
+   "frame_count": 0,
+   "sizes": [],
+   "atlas_coords": [],
+   "in_atlas": []
+  },
+  {
+   "icon_name": "Icon92",
+   "sprite_id": 19,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    17
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     4,
+     0
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon93",
+   "sprite_id": 72,
+   "swf_frames": 8,
+   "bitmap_ids": [
+    70
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     7,
+     1
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon94",
+   "sprite_id": 132,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    130
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     8,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Icon95",
+   "sprite_id": 135,
+   "swf_frames": 9,
+   "bitmap_ids": [
+    133
+   ],
+   "frame_count": 1,
+   "sizes": [
+    [
+     32,
+     32
+    ]
+   ],
+   "atlas_coords": [
+    [
+     9,
+     2
+    ]
+   ],
+   "in_atlas": [
+    true
+   ]
+  },
+  {
+   "icon_name": "Player",
+   "sprite_id": 304,
+   "swf_frames": 1,
+   "bitmap_ids": [
+    275,
+    277,
+    279,
+    282,
+    284,
+    286,
+    289,
+    291,
+    293,
+    296,
+    298,
+    300,
+    139,
+    84
+   ],
+   "frame_count": 14,
+   "sizes": [
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     16,
+     16
+    ]
+   ],
+   "atlas_coords": [
+    [
+     7,
+     5
+    ],
+    [
+     8,
+     5
+    ],
+    [
+     9,
+     5
+    ],
+    [
+     10,
+     5
+    ],
+    [
+     11,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     10,
+     2
+    ],
+    null
+   ],
+   "in_atlas": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "icon_name": "Smallkey",
+   "sprite_id": 457,
+   "swf_frames": 3,
+   "bitmap_ids": [
+    451,
+    453,
+    455
+   ],
+   "frame_count": 3,
+   "sizes": [
+    [
+     8,
+     16
+    ],
+    [
+     8,
+     16
+    ],
+    [
+     8,
+     16
+    ]
+   ],
+   "atlas_coords": [
+    null,
+    null,
+    null
+   ],
+   "in_atlas": [
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

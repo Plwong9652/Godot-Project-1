@@ -1,0 +1,366 @@
+{
+ "stairs": [
+  {
+   "UpFloorNo": -1,
+   "UpGridNo": 1,
+   "DownFloorNo": -1,
+   "DownGridNo": 0.0
+  },
+  {
+   "UpFloorNo": -1,
+   "UpGridNo": 111,
+   "DownFloorNo": 48,
+   "DownGridNo": 0.0
+  },
+  {
+   "UpFloorNo": 49,
+   "UpGridNo": 109,
+   "DownFloorNo": 47,
+   "DownGridNo": 99
+  },
+  {
+   "UpFloorNo": 48,
+   "UpGridNo": 109,
+   "DownFloorNo": 46,
+   "DownGridNo": 1
+  },
+  {
+   "UpFloorNo": 47,
+   "UpGridNo": 21,
+   "DownFloorNo": 45,
+   "DownGridNo": 109
+  },
+  {
+   "UpFloorNo": 46,
+   "UpGridNo": 1,
+   "DownFloorNo": 43,
+   "DownGridNo": 9
+  },
+  {
+   "UpFloorNo": 45,
+   "UpGridNo": 11,
+   "DownFloorNo": 43,
+   "DownGridNo": 1
+  },
+  {
+   "UpFloorNo": 45,
+   "UpGridNo": 11,
+   "DownFloorNo": 42,
+   "DownGridNo": 99
+  },
+  {
+   "UpFloorNo": 43,
+   "UpGridNo": 114,
+   "DownFloorNo": 41,
+   "DownGridNo": 11
+  },
+  {
+   "UpFloorNo": 42,
+   "UpGridNo": 16,
+   "DownFloorNo": 40,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 41,
+   "UpGridNo": 119,
+   "DownFloorNo": 39,
+   "DownGridNo": 16
+  },
+  {
+   "UpFloorNo": 40,
+   "UpGridNo": 21,
+   "DownFloorNo": 38,
+   "DownGridNo": 109
+  },
+  {
+   "UpFloorNo": 39,
+   "UpGridNo": 1,
+   "DownFloorNo": 37,
+   "DownGridNo": 9
+  },
+  {
+   "UpFloorNo": 38,
+   "UpGridNo": 109,
+   "DownFloorNo": 36,
+   "DownGridNo": 1
+  },
+  {
+   "UpFloorNo": 37,
+   "UpGridNo": 21,
+   "DownFloorNo": 35,
+   "DownGridNo": 109
+  },
+  {
+   "UpFloorNo": 36,
+   "UpGridNo": 104,
+   "DownFloorNo": 34,
+   "DownGridNo": 9
+  },
+  {
+   "UpFloorNo": 35,
+   "UpGridNo": 1,
+   "DownFloorNo": 33,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 34,
+   "UpGridNo": 9,
+   "DownFloorNo": 32,
+   "DownGridNo": 1
+  },
+  {
+   "UpFloorNo": 33,
+   "UpGridNo": 115,
+   "DownFloorNo": 31,
+   "DownGridNo": 9
+  },
+  {
+   "UpFloorNo": 32,
+   "UpGridNo": 16,
+   "DownFloorNo": 30,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 31,
+   "UpGridNo": 104,
+   "DownFloorNo": 29,
+   "DownGridNo": 16
+  },
+  {
+   "UpFloorNo": 30,
+   "UpGridNo": 99,
+   "DownFloorNo": 28,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 29,
+   "UpGridNo": 119,
+   "DownFloorNo": 27,
+   "DownGridNo": 111
+  },
+  {
+   "UpFloorNo": 28,
+   "UpGridNo": 111,
+   "DownFloorNo": 26,
+   "DownGridNo": 119
+  },
+  {
+   "UpFloorNo": 27,
+   "UpGridNo": 111,
+   "DownFloorNo": 25,
+   "DownGridNo": 111
+  },
+  {
+   "UpFloorNo": 26,
+   "UpGridNo": 111,
+   "DownFloorNo": 24,
+   "DownGridNo": 111
+  },
+  {
+   "UpFloorNo": 25,
+   "UpGridNo": 111,
+   "DownFloorNo": 23,
+   "DownGridNo": 111
+  },
+  {
+   "UpFloorNo": 24,
+   "UpGridNo": 11,
+   "DownFloorNo": 22,
+   "DownGridNo": 21
+  },
+  {
+   "UpFloorNo": 23,
+   "UpGridNo": 104,
+   "DownFloorNo": 21,
+   "DownGridNo": 71
+  },
+  {
+   "UpFloorNo": 22,
+   "UpGridNo": 16,
+   "DownFloorNo": 20,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 21,
+   "UpGridNo": 104,
+   "DownFloorNo": 19,
+   "DownGridNo": 16
+  },
+  {
+   "UpFloorNo": 20,
+   "UpGridNo": 11,
+   "DownFloorNo": 18,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 19,
+   "UpGridNo": 16,
+   "DownFloorNo": 17,
+   "DownGridNo": 11
+  },
+  {
+   "UpFloorNo": 18,
+   "UpGridNo": 114,
+   "DownFloorNo": 16,
+   "DownGridNo": 16
+  },
+  {
+   "UpFloorNo": 17,
+   "UpGridNo": 16,
+   "DownFloorNo": 15,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 16,
+   "UpGridNo": 104,
+   "DownFloorNo": 14,
+   "DownGridNo": 16
+  },
+  {
+   "UpFloorNo": 15,
+   "UpGridNo": 109,
+   "DownFloorNo": 13,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 14,
+   "UpGridNo": 111,
+   "DownFloorNo": 12,
+   "DownGridNo": 119
+  },
+  {
+   "UpFloorNo": 13,
+   "UpGridNo": 119,
+   "DownFloorNo": 11,
+   "DownGridNo": 111
+  },
+  {
+   "UpFloorNo": 12,
+   "UpGridNo": 104,
+   "DownFloorNo": 10,
+   "DownGridNo": 109
+  },
+  {
+   "UpFloorNo": 11,
+   "UpGridNo": 99,
+   "DownFloorNo": 9,
+   "DownGridNo": 104
+  },
+  {
+   "UpFloorNo": 10,
+   "UpGridNo": 16,
+   "DownFloorNo": 8,
+   "DownGridNo": 99
+  },
+  {
+   "UpFloorNo": 9,
+   "UpGridNo": 11,
+   "DownFloorNo": 7,
+   "DownGridNo": 16
+  },
+  {
+   "UpFloorNo": 8,
+   "UpGridNo": 109,
+   "DownFloorNo": 6,
+   "DownGridNo": 11
+  },
+  {
+   "UpFloorNo": 7,
+   "UpGridNo": 11,
+   "DownFloorNo": 5,
+   "DownGridNo": 109
+  },
+  {
+   "UpFloorNo": 6,
+   "UpGridNo": 111,
+   "DownFloorNo": 4,
+   "DownGridNo": 11
+  },
+  {
+   "UpFloorNo": 5,
+   "UpGridNo": 109,
+   "DownFloorNo": 3,
+   "DownGridNo": 99
+  },
+  {
+   "UpFloorNo": 4,
+   "UpGridNo": 111,
+   "DownFloorNo": 2,
+   "DownGridNo": 119
+  },
+  {
+   "UpFloorNo": 3,
+   "UpGridNo": 11,
+   "DownFloorNo": 1,
+   "DownGridNo": 99
+  },
+  {
+   "UpFloorNo": 2,
+   "UpGridNo": 1,
+   "DownFloorNo": -1,
+   "DownGridNo": 1
+  },
+  {
+   "UpFloorNo": 1,
+   "UpGridNo": 0.0,
+   "DownFloorNo": -1,
+   "DownGridNo": 0.0
+  }
+ ],
+ "player_defaults": [
+  {
+   "Life": 1000,
+   "Offense": 100,
+   "Defense": 100,
+   "Money": 0.0,
+   "Multiple": 1,
+   "Speed": 6.4,
+   "BuyNum": 0.0,
+   "MaxFloorNo": 0.0,
+   "FloorNo": 1,
+   "GridNo": 115,
+   "Weapon": 75,
+   "Shield": 80,
+   "KeyYellow": 0.0,
+   "KeyBlue": 0.0,
+   "KeyRed": 0.0,
+   "Direction": 40
+  },
+  {
+   "Life": 1000,
+   "Offense": 100,
+   "Defense": 100,
+   "Money": 0.0,
+   "Multiple": 1,
+   "Speed": 8,
+   "BuyNum": 0.0,
+   "MaxFloorNo": 1,
+   "FloorNo": 1,
+   "GridNo": 115,
+   "Weapon": 75,
+   "Shield": 80,
+   "KeyYellow": 6,
+   "KeyBlue": 3,
+   "KeyRed": 3,
+   "Direction": 38
+  },
+  {
+   "Life": 1000,
+   "Offense": 100,
+   "Defense": 100,
+   "Money": 0.0,
+   "Multiple": 1,
+   "Speed": 6.4,
+   "BuyNum": 0.0,
+   "MaxFloorNo": 0.0,
+   "FloorNo": -1,
+   "GridNo": 115,
+   "Weapon": 75,
+   "Shield": 80,
+   "KeyYellow": 0.0,
+   "KeyBlue": 0.0,
+   "KeyRed": 0.0,
+   "Direction": 40
+  }
+ ]
+}
